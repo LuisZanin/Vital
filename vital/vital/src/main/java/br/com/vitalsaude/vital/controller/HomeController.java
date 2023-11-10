@@ -8,12 +8,12 @@ public class HomeController {
 
     @GetMapping("/")
     public String home(){
-        return "Hello, Home!";
+        return "Olá, aqui não está seguro!";
     }
 
     @GetMapping("/secured")
     public String secured() {
-        return "Hello, Secured!";
+        return "Olá, aqui está seguro!";
     }
 
 }
